@@ -6,10 +6,10 @@ This C template lets you get started quickly with a simple one-page playground.
 #include <stdio.h>
 
 int main() {
-char birthday
+char birthday;
     printf("%s", &birthday);
     scanf("\n Enter your birth day:\t");
-    char birthmonth
+    char birthmonth;
     printf("%d", &birthmonth);
     scanf("\n Enter your birth month (#):\t");
     if (birthmonth=1, birthday=15) {
