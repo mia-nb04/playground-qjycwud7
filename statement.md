@@ -6,7 +6,24 @@ This C template lets you get started quickly with a simple one-page playground.
 #include <stdio.h>
 
 int main() {
-	printf("Dads a butthole.");
+char givenname[20], lastname[20]
+	printf("Enter your first name:\t");
+    scanf("%s", &givenname);
+    printf("\n Enter your last name:\t");
+    scanf("%d", &lastname);
+    printf("\n Enter your age:\t");
+    scanf("%d", &age);
+    printf("%a", &birthday);
+    scanf("\n Enter your birth day:\t");
+    printf("%b", &birthmonth);
+    scanf("\n Enter your birth month (#):\t");
+    if (birthmonth=1, birthday=15) {
+        printf("Happy Birthday!");
+    }
+    else {
+        printf("Happy Un-Birthday!");
+    }
+
 }
 
 ```
